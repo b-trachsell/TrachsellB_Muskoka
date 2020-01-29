@@ -114,9 +114,9 @@ p {
 }
 
 #GoAhead{
-	font-family: 'Roboto', sans-serif;
-	font-size: 80px;
-	color:#222;
+	font-family: 'Galada', cursive;
+	font-size: 125px;
+	color:#444;
 	padding:100px 0px;
 	margin:auto;
 }
@@ -151,9 +151,8 @@ p {
 
 .ValueHead{
 	text-align: center;
-	font-family: 'Galada', cursive;
-	text-transform: lowercase;
-	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
 	line-height: 27px;
 	padding: 9px 9px 30px 9px;
 	margin-bottom: auto;
@@ -163,4 +162,74 @@ p {
 .ValueText{
 	font-size: 14px;
 	line-height: 16px;
+}
+
+
+
+#Beer img{
+	width:30%;
+	padding:10px;
+
+}
+
+
+#BeerText{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-family: 'Roboto', sans-serif;
+	font-size: 27px;
+}
+
+#BeerText p{
+	background-color: #444;
+	color: #bbb;
+	padding:10px;
+	margin:5px 0px;
+}
+
+#BeerText p:nth-child(-n+5){
+	font-size: 32.5px;
+}
+
+#BeerText p:nth-child(n+6){
+	font-size: 31px;
+}
+#BeerText p:nth-child(n+9){
+	font-size: 33px;
+}
+#BeerText p:nth-child(n+12){
+	font-size: 31px;
+}
+#BeerText p:nth-child(n+16){
+	font-size: 26.5px;
+}
+
+#ContactBottom{
+	margin-top: 50px;
+	background-color: #000;
+	color:#bbb;
+}
+
+#CBHead{
+	font-family: 'Galada', cursive;
+	text-align: center;
+	padding: 45px 0px 10px;
+	font-size:37px;
+}
+
+#ContactBottomText{
+
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 20px;
+	margin:auto;
+	width:350px;
+	font-size: 14px;
+}
+
+#ContactBottomText p{
+	margin:10px;
 }
