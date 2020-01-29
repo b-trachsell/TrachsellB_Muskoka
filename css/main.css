@@ -5,52 +5,231 @@ p {
 }
 
 #SiteContainer {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 	width:900px;
 	margin:auto;
 	background: #cccccc; 
 	padding: 40px;
+
 	
 }
 
 #logoImage{
 	width:200px;
-	padding-top:20px;
+	padding:50px;
 	margin:auto;
 	display: flex;
 	flex-direction: row;
 }
 
-#About {
+#Headerimg {
 	background-image: url("../images/why-muskoka.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+#About{
+	width:350px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	text-align-last:center;
+	margin:auto;
+}
 
 #AbtSubHeading{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Galada', cursive;
 	text-align:center;
-	font-size: 130px;
-	padding: 20px 0px;
-	line-height: 120px;
-	color:#eee;
-	padding: 30px 0px 0px;
+	font-size: 57px;
+	line-height: 45px;
+	color:#333;
+	padding: 50px 0px 5px;
 }
+
 #AbtSubHeading2{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 78px;
-	padding: 20px 0px 50px 0px;
-	line-height:70px;
-	color:#eee;
+	font-size: 31px;
+	line-height:30px;
+	padding-bottom:40px;
+	color:#333;
 }
 
 #AbtText{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+	color: #333;
 
+}
+
+#History{
+	font-size: 37px;
+	color: #333;
+	padding: 20px 0px 50px;
+	text-align: center;
+	font-family: 'Galada', cursive;
 }
 
 #Contact{
+	font-family: 'Roboto', sans-serif;
+	color:#444;
+	text-align: center;
+	padding: 20px;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+#ContactHead{
+	font-size: 20px;
+}
+
+#WhyM{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color:#888;
+	padding:50px;
+	width:800px;
+	display: flex;
+	flex-direction: row;
+	margin:auto;
+	background-color: #000;
+}
+
+#WhyHead{
+	font-size: 45px;
+	line-height: 40px;
+
+}
+
+#WhyText{
+	margin-left:50px;
+	text-align: justify;
+	text-align-last: right;
+}
+
+#GoAhead{
+	font-family: 'Galada', cursive;
+	font-size: 125px;
+	color:#444;
+	padding:100px 0px;
+	margin:auto;
+}
+
+#Values{
+	font-family: 'Roboto', sans-serif;
+	color:#333;
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+}
+
+.ValueSection{
+	margin:30px 10px;
+	padding:9px;
+	width:auto;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+	background-color: #ddd;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.ValueSection:first-child {
+	margin-left:0px;
+}
+
+.ValueSection:last-child {
+	margin-right:0px;
+}
+
+.ValueHead{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	line-height: 27px;
+	padding: 9px 9px 30px 9px;
+	margin-bottom: auto;
+
+}
+
+.ValueText{
+	font-size: 14px;
+	line-height: 16px;
+}
+
+
+
+#Beer img{
+	width:30%;
+	padding:10px;
 
 }
 
 
+#BeerText{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-family: 'Roboto', sans-serif;
+	font-size: 27px;
+}
+
+#BeerText p{
+	background-color: #444;
+	color: #bbb;
+	padding:10px;
+	margin:5px 0px;
+}
+
+#BeerText p:nth-child(-n+5){
+	font-size: 32.5px;
+}
+
+#BeerText p:nth-child(n+6){
+	font-size: 31px;
+}
+#BeerText p:nth-child(n+9){
+	font-size: 33px;
+}
+#BeerText p:nth-child(n+12){
+	font-size: 31px;
+}
+#BeerText p:nth-child(n+16){
+	font-size: 26.5px;
+}
+
+#ContactBottom{
+	margin-top: 50px;
+	background-color: #000;
+	color:#bbb;
+}
+
+#CBHead{
+	font-family: 'Galada', cursive;
+	text-align: center;
+	padding: 45px 0px 10px;
+	font-size:37px;
+}
+
+#ContactBottomText{
+
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 20px;
+	margin:auto;
+	width:350px;
+	font-size: 14px;
+}
+
+#ContactBottomText p{
+	margin:10px;
+}
